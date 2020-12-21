@@ -1,0 +1,16 @@
+.welcome__menu__button {
+  display: flex;
+  width: 75%;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #554823;
+  border: 1px solid #a58989;
+  color: white;
+  outline: none;
+}
+
+.welcome__menu__button:hover {
+  text-decoration: underline;
+  background-color: #857036;
+}

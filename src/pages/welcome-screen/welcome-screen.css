@@ -1,0 +1,20 @@
+.welcome {
+  background-image: url(../../assets/images/welcomeScreenBackground.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 23%;
+  height: 40%;
+  background-color: rgb(216, 138, 65);
+  border: 2px solid gray;
+}

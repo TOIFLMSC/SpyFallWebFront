@@ -1,0 +1,27 @@
+.create_lobby {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30%;
+  width: 23%;
+  padding: 1rem;
+  background-color: rgb(216, 138, 65);
+  border: 2px solid gray;
+}
+
+.create_lobby__amount {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.create_lobby label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.create_lobby input {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+}

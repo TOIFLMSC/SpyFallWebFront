@@ -1,0 +1,142 @@
+.login {
+  background-image: url(../../assets/images/background.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  width: 40%;
+}
+
+.login__logo {
+  margin: 220px 0 0;
+}
+
+.login__title,
+.login__total {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 33px;
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+.login__total {
+  font-size: 20px;
+  margin: 30px 0 0;
+  width: 500px;
+}
+
+.login__total--fail {
+  margin-top: 170px;
+}
+
+.login__text {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  margin: 30px 0 0;
+  width: 500px;
+}
+
+.login__form {
+  width: 450px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__field {
+  position: relative;
+  flex-basis: 50%;
+  width: 49%;
+  margin: 0;
+}
+
+.login__field:last-of-type {
+  text-align: right;
+}
+
+.login__label {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.login__input {
+  padding: 5px 10px;
+  width: 150px;
+  background-color: #f0eed5;
+  border: 3px solid #230d1a;
+  border-radius: 15px;
+  outline: none;
+}
+
+.login__input:hover {
+  border-color: #ff9749;
+}
+
+.login__input--error,
+.login__input--error:hover {
+  border-color: #f00000;
+}
+
+.login__error {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  display: none;
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  font-size: 14px;
+  color: #f00000;
+}
+
+.login__input--error + .login__error {
+  display: inline;
+}
+
+.login__button,
+.login__replay {
+  margin-top: 20px;
+}
+
+.login__replay {
+  position: relative;
+  padding: 0 40px 0 0;
+  color: #ff9749;
+  font-size: 30px;
+  border: 0;
+  background: 0 0;
+}
+
+.login__replay:focus,
+.login__replay:hover,
+.result__replay:focus,
+.result__replay:hover {
+  color: #f00000;
+}
+
+.error_message {
+  margin-top: 20px;
+  color: red;
+  font-size: 1.2rem;
+}

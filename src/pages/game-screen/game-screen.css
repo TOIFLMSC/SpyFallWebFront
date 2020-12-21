@@ -1,0 +1,73 @@
+.game {
+  background-image: url(../../assets/images/background.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+}
+
+.game__list {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.game__role {
+  font-size: 1.7rem;
+}
+
+.game__token {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+}
+
+.game__token input {
+  text-align: center;
+  width: 8rem;
+  margin-left: 15px;
+}
+
+.clipboard-btn {
+  display: inline-block;
+  border: none;
+  font-size: 0.4rem;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  height: fit-content;
+  background-color: rgb(199, 98, 98);
+  cursor: pointer;
+}
+
+.clipboard-btn:hover {
+  background-color: #242429;
+}
+
+.clipboard-btn:focus {
+  outline: none;
+}
+
+.svg-icon {
+  max-width: 100%;
+  max-height: 100%;
+  align-self: center;
+  justify-self: center;
+}
+
+.btn-success {
+  width: 20%;
+}

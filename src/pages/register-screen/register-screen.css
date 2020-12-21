@@ -1,0 +1,137 @@
+.register {
+    background-image: url(../../assets/images/background.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+    width: 40%;
+  }
+  
+  .register__logo {
+    margin: 220px 0 0;
+  }
+  
+  .register__title,
+  .register__total {
+    font-family: "Fira Sans", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 33px;
+    text-align: center;
+    margin: 10px 0 0;
+  }
+  
+  .register__total {
+    font-size: 20px;
+    margin: 30px 0 0;
+    width: 500px;
+  }
+  
+  .register__total--fail {
+    margin-top: 170px;
+  }
+  
+  .register__text {
+    font-family: "Fira Sans", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0 0;
+    width: 500px;
+  }
+  
+  .register__form {
+    width: 450px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center ;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .register__field {
+    position: relative;
+    flex-basis: 50%;
+    width: 49%;
+    margin: 0;
+  }
+  
+  .register__field:last-of-type {
+    text-align: right;
+  }
+  
+  .register__label {
+    font-family: "Fira Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 5px;
+  }
+  
+  .register__input {
+    padding: 5px 10px;
+    width: 150px;
+    background-color: #f0eed5;
+    border: 3px solid #230d1a;
+    border-radius: 15px;
+    outline: none;
+  }
+  
+  .register__input:hover {
+    border-color: #ff9749;
+  }
+  
+  .register__input--error,
+  .register__input--error:hover {
+    border-color: #f00000;
+  }
+  
+  .register__error {
+    font-family: "Fira Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    font-size: 14px;
+    color: #f00000;
+  }
+  
+  .register__input--error + .register__error {
+    display: inline;
+  }
+  
+  .register__button,
+  .register__replay {
+    margin-top: 20px;
+  }
+  
+  .register__replay {
+    position: relative;
+    padding: 0 40px 0 0;
+    color: #ff9749;
+    font-size: 30px;
+    border: 0;
+    background: 0 0;
+  }
+  
+  .register__replay:focus,
+  .register__replay:hover,
+  .result__replay:focus,
+  .result__replay:hover {
+    color: #f00000;
+  }
+  

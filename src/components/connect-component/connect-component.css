@@ -1,0 +1,29 @@
+.connect_lobby {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30%;
+  width: 23%;
+  padding: 1rem;
+  background-color: rgb(216, 138, 65);
+  border: 2px solid gray;
+}
+
+.connect_lobby label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.connect_lobby input {
+  display: inline-block;
+  text-align: center;
+  width: 35%; 
+}
+
+.connect_lobby button {
+  align-self: center;
+  justify-self: center;
+  width: 35%;
+}
